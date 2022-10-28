@@ -1,5 +1,9 @@
 import profile from "../../images/profile.svg"
 import share from "../../icons/share.svg"
+import slack from "../../icons/slack.png"
+import github from "../../icons/github.png"
+import zuri from "../../images/Zuri.png"
+import ingressive from "../../images/I4G.png"
 import './linkTree.scss';
 
 function Home() {
@@ -50,7 +54,8 @@ function Home() {
         <div className="socials">
 
           <div className="socials-inner">
-
+            <img src={slack} alt="slack" />
+            <img src={github} alt="github" />
           </div>
 
         </div>
@@ -64,6 +69,14 @@ function Home() {
 
 {/***********************Footer section********************/}
     <div className='footer'>
+
+      <div className="footer-inner">
+
+        <img src={zuri} alt="zuri" />
+        <span>HNG Internship 9 Frontend Task</span>
+        <img src={ingressive} alt="I4G" />
+
+      </div>
 
     </div>
 
