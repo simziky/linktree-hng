@@ -1,12 +1,11 @@
-
-import './App.scss';
+import Home from "./pages/home/linkTree";
 
 function App() {
-  return (
-    <div className="App">
-     <h1>hi</h1>
-    </div>
-  );
-}
-
-export default App;
+    return (
+      <div className="App">
+      <Home />
+      </div>
+    );
+  }
+  
+  export default App;
