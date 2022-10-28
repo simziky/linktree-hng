@@ -1,4 +1,5 @@
-
+import profile from "../../images/profile.svg"
+import share from "../../icons/share.svg"
 import './linkTree.scss';
 
 function Home() {
@@ -13,7 +14,18 @@ function Home() {
 
         <div className='profile-section'>
 
+          <div id="profile__img">
+            <img src={profile} alt="profile-img" />
+          </div>
+
+          <span>
+            <img src={share} alt="share-icon" />
+          </span>
+
           <div className='profile-social'>
+            <div id="twitter">Simeon_Kong</div>
+
+            <div id="slack">Simeon Ehioze</div>
 
           </div>
 

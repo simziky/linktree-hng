@@ -6,14 +6,54 @@
         .content-inner {
             width: 100%;
             height: 100vh;
-            background-color: black;
-
+           
 
             .profile-section{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
 
+               #profile__img {
+                    width: 88px;
+                    height: 88px;
+
+                img {
+                    width: 100%;
+                    height: auto;
+                }
+
+               }
+
+               span {
+                position: absolute;
+                top: 0;
+                right: 13rem;
+                margin-top: -1.5rem;
+
+                img {
+                    width: 40px;
+                    height: 40px;
+                }
+               }
+               
                 
                 .profile-social {
+                    width: 100%;
+                    div {
+                        width: 100%;
+                        height: 30px;
+                        margin-top: 24px;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 30px;
+                        text-align: center;
+                    }
 
+                    #slack {
+                        display: none;
+                    }
                 }
 
             }
