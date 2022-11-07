@@ -4,8 +4,6 @@ import profile from "../../images/profile.svg"
 import share from "../../icons/share.svg"
 import slack from "../../icons/slack.png"
 import github from "../../icons/github.png"
-import zuri from "../../images/Zuri.png"
-import ingressive from "../../images/I4G.png"
 import './linkTree.scss';
 import Footer from "../../components/footer/footer";
 
