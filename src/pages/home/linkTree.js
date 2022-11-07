@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import profile from "../../images/profile.svg"
 import share from "../../icons/share.svg"
 import slack from "../../icons/slack.png"
@@ -5,6 +7,7 @@ import github from "../../icons/github.png"
 import zuri from "../../images/Zuri.png"
 import ingressive from "../../images/I4G.png"
 import './linkTree.scss';
+import Footer from "../../components/footer/footer";
 
 function Home() {
   return (
@@ -49,6 +52,9 @@ function Home() {
 
           <a href="https://books.zuri.team/design-rules" id="book__design">Design Books</a>
 
+            <Link to="/Contact" id="contact"> Contact </Link>
+             
+
         </div>
 
         <div className="socials">
@@ -68,17 +74,7 @@ function Home() {
 
 
 {/***********************Footer section********************/}
-    <div className='footer'>
-
-      <div className="footer-inner">
-
-        <img src={zuri} alt="zuri" />
-        <span>HNG Internship 9 Frontend Task</span>
-        <img src={ingressive} alt="I4G" />
-
-      </div>
-
-    </div>
+   <Footer />
 
 
     </div>
